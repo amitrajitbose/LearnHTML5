@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		CSS Implementation
+	</title>
+
+	<!-- This Style Element can be put anywhere -->
+	<style>
+		h1{
+			color: blue;
+			font-size: 25px;
+			font-family: Calibri;
+			background: yellow;
+		}
+	</style>
+	<link rel="stylesheet" type="text/css" href="css\external.css">
+	<!-- This line below can also be used for the same purpose as the above link tag. They will have the same impact. -->
+	<!--
+	<link rel="stylesheet" href="css\external.css" />
+	-->
+</head>
+<body>
+	<!-- Inline Styling-->
+	<p style="font-size: 20px; color: red; font-family: Calibri;"> This is inline styling. You need to add style to each element in each page individually</p>
+
+	<!-- Internal Styling-->
+	<h1 title="This is the title for internal styling">Internal Styling Line 1</h1>
+	<h1>Internal Styling Line 2</h1>
+	<h1>Makes use of your heading tags and implements styling once and for all elements of same heading type in the given page. But you need to add the styles to each page separately. This is better than INLINE styling.</h1>
+
+	<!-- External Styling -->
+	<h3> External Styling</h3>
+	<h3> It is the best in comparison to the rest because the styles can be created separately and linked to any page and any element. This increase reusability of code, reduces the mismanagement of code.</h3>
+</body>
+</html>
